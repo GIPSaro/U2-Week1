@@ -340,3 +340,35 @@ footer a {
     margin-right: auto;
   }
 }
+
+/*stampa*/
+
+@media print {
+  body {
+    font-size: 20px;
+    background-image: none;
+  }
+  main {
+    box-shadow: none;
+    margin: 0;
+  }
+  header,
+  article section,
+  iframe,
+  aside,
+  footer,
+  .social,
+  .toTop {
+    display: none;
+  }
+  #logoHtml {
+    padding: 1px;
+  }
+
+  header div p {
+    color: black;
+  }
+  main {
+    box-shadow: none;
+  }
+}
