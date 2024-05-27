@@ -256,3 +256,87 @@ footer a {
 }
 
 /*1200px*/
+@media screen and (min-width: 1200px) {
+  header {
+    text-align: left;
+    padding-bottom: 17px;
+    padding-top: 12px;
+  }
+  header .brand,
+  header nav,
+  header .brand p {
+    display: inline-block;
+  }
+  header .brand {
+    width: 75%;
+  }
+  header .brand img {
+    vertical-align: middle;
+  }
+  header .brand p {
+    margin-bottom: 0;
+  }
+
+  header div {
+    display: inline-block;
+    align-items: center;
+  }
+  body {
+    line-height: 2;
+  }
+
+  main {
+    margin: auto;
+    margin-bottom: 1.5em;
+  }
+  footer {
+    margin: auto;
+  }
+  header img header div p {
+    margin: 0;
+  }
+  header nav {
+    width: 15em;
+  }
+  header img {
+    display: block;
+  }
+  ul ol {
+    line-height: 1.8em;
+  }
+  article h2 {
+    margin-bottom: 0.5em;
+  }
+  iframe,
+  section {
+    display: inline-block;
+    width: 50%;
+    margin-inline: -2px;
+    vertical-align: middle;
+  }
+  iframe {
+    height: 267px;
+  }
+  section {
+    border-radius: 20px;
+    height: 267px;
+  }
+  #videoNovità {
+    display: inline-block;
+  }
+  aside div {
+    display: inline-block;
+    width: 33.33%;
+    margin-inline: -2px;
+  }
+  footer {
+    padding: 1em 12em;
+  }
+  header,
+  main,
+  footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
