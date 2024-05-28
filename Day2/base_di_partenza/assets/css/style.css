@@ -362,7 +362,50 @@ footer {
   text-align: center;
   font-size: 1.2rem;
 }
-
+.iconup {
+  border: 3px solid white;
+  background-color: rgba(249, 249, 249, 0.91);
+  border-radius: 6px;
+  position: fixed;
+  fill: purple;
+  bottom: 5px;
+  right: 6px;
+  z-index: 11;
+  padding: 12px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+.calendar {
+  fill: rgb(3, 3, 90);
+  border: 3px solid white;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
+  border-radius: 6px;
+  position: fixed;
+  top: 1290px;
+  right: 6px;
+  z-index: 11;
+  padding: 12px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+.plus {
+  fill: rgb(3, 3, 90);
+  border: 3px solid white;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
+  border-radius: 6px;
+  position: fixed;
+  top: 1200px;
+  right: 6px;
+  z-index: 11;
+  padding: 12px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
 @media screen and (min-width: 800px) {
   footer {
     padding: 1em 12em;
