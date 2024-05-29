@@ -12,3 +12,48 @@ header {
   background-color: #fef7e2;
   width: 100%;
 }
+
+/* NAVBAR */
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+
+li {
+  background-color: #ffdf7f;
+  font-weight: 700;
+  font-size: 0.8rem;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+#shop-btn {
+  height: 80px;
+  border-radius: 40px;
+  width: 140px;
+  font-size: 1.5rem;
+  padding-top: 25px;
+}
+
+#shop-btn img {
+  margin-right: 18px;
+  vertical-align: middle;
+}
+
+/* PRODUCT CARD */
