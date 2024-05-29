@@ -121,3 +121,47 @@ h2 {
   border-radius: 20px;
   margin-top: 20px;
 }
+
+/* ARTICLE */
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.article-container {
+  background-color: #fef7e2;
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.article-text h3 {
+  font-weight: 800;
+  margin-top: 0;
+}
+
+.article-img img {
+  width: 100%;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 769px) {
+  .article-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .article-text {
+    max-width: 40%;
+  }
+
+  .article-text p {
+    font-size: 0.8rem;
+  }
+
+  .article-img {
+    max-width: 55%;
+  }
+}
