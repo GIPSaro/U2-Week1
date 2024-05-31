@@ -65,6 +65,8 @@ a {
   color: #191919;
 }
 
+/* HEADER */
+
 h1 {
   font-family: "Spectral", serif;
   margin: 0;
@@ -86,7 +88,6 @@ header {
 #heroContainer {
   border-bottom: 1px solid #191919;
   height: 450px;
-  /* margin-top: 4.8em; */
   margin-bottom: 2em;
 }
 
@@ -117,6 +118,10 @@ h3 + button {
   cursor: pointer;
 }
 
+/* MAIN */
+
+/* SECTION 1 */
+
 #section1 {
   display: flex;
   border-bottom: 1px solid lightgray;
@@ -124,6 +129,9 @@ h3 + button {
 }
 main {
   display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto;
   padding-top: 35px;
   padding-left: 80px;
   font-family: "Roboto", sans-serif;
@@ -188,6 +196,11 @@ main h5 {
   cursor: pointer;
 }
 
+/* SECTION 2 */
+
+#section2 {
+  display: flex;
+}
 .timeArticle {
   padding-bottom: 4em;
   font-size: 0.8em;
@@ -195,4 +208,98 @@ main h5 {
 }
 .timeArticle img {
   cursor: pointer;
+}
+.infoArticle {
+  flex-basis: 75%;
+}
+.articleImg {
+  flex-basis: 25%;
+}
+.articleHeader {
+  align-items: center;
+}
+.infoArticle div {
+  display: flex;
+  padding-bottom: 5px;
+}
+.infoArticle {
+  padding-right: 60px;
+}
+.infoArticle h2 {
+  font-weight: 900;
+  font-size: larger;
+}
+p:nth-of-type(3) {
+  display: flex;
+  background-color: lightgray;
+  padding: 0.4em 0.6em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.articleTime {
+  justify-content: space-between;
+}
+.articleFooterInfo {
+  align-items: center;
+  font-size: 0.8em;
+  color: gray;
+}
+h2 + p {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 0;
+  cursor: pointer;
+  color: gray;
+}
+h2 {
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.article img {
+  cursor: pointer;
+}
+
+/* DISCOVER STICKY */
+
+.btnDiscover {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 0.5em 1em;
+  margin: 0.5em 0.1em 0.5em 0;
+  color: gray;
+  cursor: pointer;
+}
+#discover {
+  width: 60%;
+  position: sticky;
+  top: 115px;
+  z-index: 1;
+  align-self: flex-start;
+  padding-left: 3em;
+}
+#discover p {
+  font-weight: 700;
+  font-size: 0.9em;
+}
+#links ul {
+  flex-wrap: wrap;
+  padding: 0;
+}
+#links ul li {
+  padding: 0 1.5em 1em 0;
+  color: gray;
+  cursor: pointer;
+}
+#links {
+  border-top: 1px solid lightgray;
+  font-size: 0.9em;
+  margin-top: 2em;
+  padding-top: 1.2rem;
+}
+
+.article {
+  display: flex;
+  margin-bottom: 3em;
 }
