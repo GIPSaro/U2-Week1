@@ -33,7 +33,7 @@ header {
   z-index: 1;
   width: 100%;
   background-color: #ffc017;
-  transition: background-color 1s;
+  transition: background-color 300ms;
 }
 nav {
   display: flex;
