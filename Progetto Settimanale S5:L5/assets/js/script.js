@@ -10,3 +10,10 @@ window.addEventListener("scroll", function () {
     btn.style.backgroundColor = "#191919";
   }
 });
+
+let emme = document.querySelectorAll('g[stroke-linecap="butt"]');
+
+setInterval(() => {
+  let random = Math.round(Math.random() * (emme.length - 1));
+  emme[random].classList.toggle("invisible");
+}, 100);

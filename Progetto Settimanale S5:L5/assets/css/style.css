@@ -310,3 +310,6 @@ h2 {
   display: flex;
   margin-bottom: 3em;
 }
+.invisible {
+  opacity: 0;
+}
