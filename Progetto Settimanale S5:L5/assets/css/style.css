@@ -209,6 +209,13 @@ main h5 {
 .timeArticle img {
   cursor: pointer;
 }
+.timeArticle p {
+  display: flex;
+}
+span {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 .infoArticle {
   flex-basis: 75%;
 }
