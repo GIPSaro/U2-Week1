@@ -19,9 +19,7 @@ button {
   font-family: "Roboto", sans-serif;
   border-style: none;
 }
-nav,
-#trendingContainer,
-#section2 {
+nav {
   width: 72.5%;
   margin: auto;
 }
@@ -88,7 +86,7 @@ header {
 #heroContainer {
   border-bottom: 1px solid #191919;
   height: 450px;
-  margin-top: 4.8em;
+  /* margin-top: 4.8em; */
   margin-bottom: 2em;
 }
 
